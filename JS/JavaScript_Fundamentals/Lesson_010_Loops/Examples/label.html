@@ -2,14 +2,37 @@
 <html>
 <body>
 	<script>
-		
-for (let i = 0; i < 3; i++) {
-  for (let j = 0; j < 3; j++) {
-    let input = prompt(`Value at coords (${i},${j})`, '');
-  }
-}
-
-alert('Done!');
+		//for (let i = 0; i < 3; i++){
+			//for (let j = 0; j < 3; j++){
+			//let input = prompt(`Value at coords (${i},${j})`, '');
+		//	}
+		//}
+	//alert('Done!');
 	</script>
+	
+	<script>
+		//using label for break
+		outerLoop: for (int i = 1; i <= 3; i++) {
+		for (int j = 1; j <= 3; j++) {
+			if (i * j == 6) {
+            alert("The product is 6. Breaking the outer loop.");
+            break outerLoop; // This breaks out of the outer loop
+			}
+		}
+		}
+	</script>
+	<script>
+		//using laber for continue
+		outerLoop: for (int i = 1; i <= 3; i++) {
+		for (int j = 1; j <= 3; j++) {
+			if (i == j) {
+            alert("i is equal to j. Continuing the outer loop.");
+            continue outerLoop; // This continues to the next iteration of the outer loop
+			}
+			alert("i = " + i + ", j = " + j);
+		}
+	}
+	</script>
+	
 </body>
 </html>
