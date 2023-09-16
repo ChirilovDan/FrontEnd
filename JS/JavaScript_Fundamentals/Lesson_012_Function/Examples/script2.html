@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<script>
+		let userName="John";
+		
+		function showMessage(){
+			userName="Bob"; // g=change te outer variable
+			let message="Hello " + userName;
+			alert(message);
+		}
+		
+		alert(userName); // John
+		showMessage(); //function changes the name
+		alert(userName);
+	</script>
+</body>
+</html>
