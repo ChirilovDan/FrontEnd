@@ -7,20 +7,21 @@
     <div class="container">
 		<input type="text" id="randomText" placeholder="Something here...">
 		<br>
-		<input type="text" id="filePath1" placeholder="File Path" disabled>
-        <input type="file" id="selectFile1" style="display: none;">
-        <button id="uploadFile1">Data Flow 1</button>
-		<br>
-		<input type="text" id="filePath2" placeholder="File Path" disabled>
-        <input type="file" id="selectFile2" style="display: none;">
-        <button id="uploadFile2">Data Flow 2</button>
-		<br>
-		<input type="text" id="filePath3" placeholder="File Path" disabled>
-        <input type="file" id="selectFile3" style="display: none;">
-        <button id="uploadFile3">Data Flow 3</button>
-		<br>
-		<div class="submit">
-			<button id="submit" >Upload</button>
+		<div class="dataFlowSection">
+			<input type="text" id="filePath1" placeholder="File Path" disabled>
+			<input type="file" id="selectFile1" style="display: none;">
+			<button id="uploadFile1" class="uploadFile">Data Flow 1</button>
+			<br>
+			
+			<input type="text" id="filePath2" placeholder="File Path" disabled>
+			<input type="file" id="selectFile2" style="display: none;">
+			<button id="uploadFile2" class="uploadFile">Data Flow 2</button>
+			<br>
+			<input type="text" id="filePath3" placeholder="File Path" disabled>
+			<input type="file" id="selectFile3" style="display: none;">
+			<button id="uploadFile3" class="uploadFile">Data Flow 3</button>
+			<br>
+			<button id="upload" class="submitButton">Upload</button>
 		</div>
 	</div>
 	<script>
