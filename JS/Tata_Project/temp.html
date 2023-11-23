@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Styles for the button container */
+        .button-container {
+            display: inline-block;
+            position: absolute;
+            overflow: hidden;
+            cursor: pointer;
+			border-top: 1px solid #333;    /* Top border */
+            border-right: 1px solid #333;  /* Right border with increased length */
+            border-bottom: 2px solid #333; /* Bottom border */
+            border-left: 2px solid #333;   /* Left border */
+            padding: 10px;
+        }
+
+        /* Styles for the button image */
+        .button-image {
+            max-width: 10%;
+            height: auto;
+            display: block;
+        }
+
+        /* Styles for the text overlay */
+        .button-text {
+            position: absolute;
+            top: 50%;
+            left: 20%;
+			
+            transform: translate(-50%, -50%);
+            color: white; /* Adjust text color as needed */
+            font-size: 16px; /* Adjust font size as needed */
+            font-weight: bold;
+            text-align: left;
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); /* Optional text shadow */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Button container with image and text -->
+    <div class="button-container">
+        <img class="button-image" src="your-image-url.jpg" alt="Button Image">
+        <span class="button-text">Click me</span>
+    </div>
+
+</body>
+</html>

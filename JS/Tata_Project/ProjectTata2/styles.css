@@ -1,0 +1,47 @@
+.nav-bar-btns{
+	display: flex;
+    flex-direction:row;
+    margin-left: 0%;
+
+}
+
+.dashboard{
+	width: 20px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 8px
+}
+.upload{
+	width: 20px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 8px
+}
+
+.download{
+	width: 20px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 8px
+}
+
+.btn{
+    flex-direction:row;
+	margin-left:10px;
+	background-color: #0cc7d7;
+    height: 36px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 0;
+    padding: 0px 9px;
+    font-size: 15px;
+    user-select: none;
+    -webkit-user-select: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+body {
+    background-color: yellow;
+}
